@@ -76,8 +76,11 @@ WSGI_APPLICATION = 'Library.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'jfzmusys',
+        'USER': 'jfzmusys',
+        'PASSWORD': '0XehCQfx953xMbNN23HgJyaPMMKbh7eB',
+        'HOST': 'dumbo.db.elephantsql.com',
     }
 }
 
